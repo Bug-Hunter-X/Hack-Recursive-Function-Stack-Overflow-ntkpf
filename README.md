@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Hack: stack overflow due to unbounded recursion in the absence of tail call optimization. The `foo` function calculates the factorial recursively, which leads to a stack overflow for larger inputs. The solution demonstrates an iterative approach that avoids this problem.
